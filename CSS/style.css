@@ -308,7 +308,7 @@ code, pre{
     .showcase .grid,
     .stats .grid,
     .cli .grid,
-    .cloud .grid, .features-main .grid, .docs-main .grid{
+    .cloud .grid, .features-main .grid, .docs-main .grid, .features-head .grid, .features-sub-head .grid, .docs-head .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -321,6 +321,10 @@ code, pre{
         text-align: center;
         margin-top: 40px;
         animation: slideInFromTop 1s ease-in;
+    }
+
+    .features-head, .features-sub-head, .docs-head {
+        text-align: center;
     }
 
     .showcase-form{
